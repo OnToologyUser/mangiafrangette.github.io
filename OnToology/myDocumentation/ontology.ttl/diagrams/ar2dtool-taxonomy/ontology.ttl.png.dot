@@ -1,0 +1,29 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; ":Stillness" "base:Interpreted_concept" "base:Interpretation" "base:Equality" "base:Expression" "base:Repetition" "base:Lightness" "base:Opposition" "base:Rhetorical_Figure" "base:Series" "base:Movement" ":Darkness" "base:Identity" "base:Heaviness" "base:Similarity" "base:Omission" "base:Person" "base:Fictional_character" "base:Symmetry" "base:Concept" ":Inertia" "base:Dustiness" "base:Agent" "base:Brightness" "base:Mutability" "base:Literary_text" ; /*classes style*/
+	"base:Dustiness" -> "base:Lightness" [ label = "rdfs:subClassOf" ];
+	"base:Interpreted_concept" -> "base:Interpretation" [ label = "rdfs:subClassOf" ];
+	"base:Movement" -> "base:Lightness" [ label = "rdfs:subClassOf" ];
+	"base:Repetition" -> "base:Rhetorical_Figure" [ label = "rdfs:subClassOf" ];
+	"base:Fictional_character" -> "base:Person" [ label = "rdfs:subClassOf" ];
+	"base:Person" -> "base:Agent" [ label = "rdfs:subClassOf" ];
+	":Darkness" -> "base:Heaviness" [ label = "rdfs:subClassOf" ];
+	"base:Symmetry" -> "base:Rhetorical_Figure" [ label = "rdfs:subClassOf" ];
+	"base:Identity" -> "base:Rhetorical_Figure" [ label = "rdfs:subClassOf" ];
+	"base:Omission" -> "base:Rhetorical_Figure" [ label = "rdfs:subClassOf" ];
+	"base:Rhetorical_Figure" -> "base:Interpretation" [ label = "rdfs:subClassOf" ];
+	"base:Brightness" -> "base:Lightness" [ label = "rdfs:subClassOf" ];
+	"base:Similarity" -> "base:Rhetorical_Figure" [ label = "rdfs:subClassOf" ];
+	"base:Equality" -> "base:Lightness" [ label = "rdfs:subClassOf" ];
+	":Stillness" -> "base:Heaviness" [ label = "rdfs:subClassOf" ];
+	"base:Opposition" -> "base:Rhetorical_Figure" [ label = "rdfs:subClassOf" ];
+	"base:Series" -> "base:Rhetorical_Figure" [ label = "rdfs:subClassOf" ];
+	"base:Heaviness" -> "base:Interpreted_concept" [ label = "rdfs:subClassOf" ];
+	"base:Mutability" -> "base:Lightness" [ label = "rdfs:subClassOf" ];
+	":Inertia" -> "base:Heaviness" [ label = "rdfs:subClassOf" ];
+	"base:Lightness" -> "base:Interpreted_concept" [ label = "rdfs:subClassOf" ];
+	"base:Literary_text" -> "base:Expression" [ label = "rdfs:subClassOf" ];
+	"base:Interpretation" -> "base:Concept" [ label = "rdfs:subClassOf" ];
+
+}

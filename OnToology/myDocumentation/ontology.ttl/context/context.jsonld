@@ -1,0 +1,145 @@
+{
+  "@context" : {
+    "Lightness" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+    },
+    "textualReference" : {
+      "@id" : "http://purl.org/vocab/frbr/core#textualReference",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Fictional_character" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character"
+    },
+    "Inertia" : {
+      "@id" : "http://purl.org/vocab/frbr/core#Inertia"
+    },
+    "lacksOf" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf",
+      "@type" : "@id"
+    },
+    "Heaviness" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness"
+    },
+    "Stillness" : {
+      "@id" : "http://purl.org/vocab/frbr/core#Stillness"
+    },
+    "hasFictionalCharacter" : {
+      "@id" : "http://purl.org/vocab/frbr/core#hasFictionalCharacter",
+      "@type" : "@id"
+    },
+    "isOppositeOf" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf",
+      "@type" : "@id"
+    },
+    "Interpretation" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Opposition" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition"
+    },
+    "Concept" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept"
+    },
+    "Movement" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement"
+    },
+    "isSubtractionOf" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf",
+      "@type" : "@id"
+    },
+    "Expression" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person"
+    },
+    "Repetition" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition"
+    },
+    "textualPart" : {
+      "@id" : "http://purl.org/vocab/frbr/core#textualPart"
+    },
+    "Agent" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent"
+    },
+    "Similarity" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity"
+    },
+    "Rhetorical_Figure" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "hasSource" : {
+      "@id" : "http://purl.org/vocab/frbr/core#hasSource",
+      "@type" : "@id"
+    },
+    "hasRhetoricFunction" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction",
+      "@type" : "@id"
+    },
+    "Omission" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission"
+    },
+    "isLightenedBy" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy",
+      "@type" : "@id"
+    },
+    "Darkness" : {
+      "@id" : "http://purl.org/vocab/frbr/core#Darkness"
+    },
+    "Symmetry" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry"
+    },
+    "Mutability" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability"
+    },
+    "Literary_text" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+    },
+    "Equality" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Identity" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity"
+    },
+    "isEmbodimentOf" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf",
+      "@type" : "@id"
+    },
+    "Brightness" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Series" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series"
+    },
+    "Dustiness" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness"
+    },
+    "Interpreted_concept" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasLiteraryValue" : {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue",
+      "@type" : "@id"
+    }
+  }
+}
