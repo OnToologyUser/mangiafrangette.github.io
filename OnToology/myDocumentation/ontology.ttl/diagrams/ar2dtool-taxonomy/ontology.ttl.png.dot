@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; ":Stillness" "base:Interpreted_concept" "base:Interpretation" "base:Equality" "base:Expression" "base:Repetition" "base:Lightness" "base:Opposition" "base:Rhetorical_Figure" "base:Series" "base:Movement" ":Darkness" "base:Identity" "base:Heaviness" "base:Similarity" "base:Omission" "base:Person" "base:Fictional_character" "base:Symmetry" "base:Concept" ":Inertia" "base:Dustiness" "base:Agent" "base:Brightness" "base:Mutability" "base:Literary_text" ; /*classes style*/
+node [shape = rectangle, color="black"]; ":Stillness" "base:Interpreted_concept" "base:Interpretation" "base:Equality" "base:Expression" "base:Repetition" "base:Lightness" "base:Opposition" "base:Rhetorical_Figure" "base:Movement" ":Darkness" "base:Identity" "base:Series" "base:Heaviness" "base:Similarity" "base:Omission" "base:Person" "base:Fictional_character" "base:Symmetry" "base:Concept" ":Inertia" "base:Dustiness" "base:Agent" "base:Brightness" "base:Mutability" "base:Literary_text" ; /*classes style*/
 	"base:Dustiness" -> "base:Lightness" [ label = "rdfs:subClassOf" ];
 	"base:Interpreted_concept" -> "base:Interpretation" [ label = "rdfs:subClassOf" ];
 	"base:Movement" -> "base:Lightness" [ label = "rdfs:subClassOf" ];
