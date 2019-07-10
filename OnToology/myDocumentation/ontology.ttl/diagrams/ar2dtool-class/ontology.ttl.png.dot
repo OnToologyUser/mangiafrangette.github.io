@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "base:Interpreted_concept" "d4d8f1e3b9c9aef44b3bbf294406a5a4" "base:Interpretation" "base:Lightness" "87c699adcbae3ef2679ef93e53807cae" "base:Rhetorical_Figure" "base:Heaviness" "base:Fictional_character" "165836d04acd4c47df8eb944913bceaa" "89bf4b830d585bdd9d11194270496615" "base:Mutability" "base:Literary_text" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "base:Interpreted_concept" "base:Interpretation" "base:Lightness" "base:Rhetorical_Figure" "60cc3043c36e99dc03dc3ca4255fc458" "base:Heaviness" "base:Fictional_character" "83c34784180a5b02293bdb3841017257" "d03fc718c6e305e525f39705a56ee491" "9a8b5dde50e64358a834a8646af40f61" "base:Mutability" "base:Literary_text" ; /*classes style*/
 	"base:cour_similitude" -> "base:literary_text2" [ label = ":hasSource" ];
 	"base:volti" -> "base:literary_text2" [ label = ":hasSource" ];
 	"base:anaphora_4" -> "base:literary_text2" [ label = ":hasSource" ];
@@ -35,20 +35,20 @@ node [shape = rectangle, color="orange"]; "base:Interpreted_concept" "d4d8f1e3b9
 	"base:pioggia" -> "base:literary_text2" [ label = ":hasSource" ];
 	"base:opposition_omission_1" -> "base:literary_text3" [ label = ":hasSource" ];
 	"NULL" -> "base:Interpretation" [ label = "rdf:first" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ffa" [ label = "owl:unionOf" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ff3" [ label = "rdf:rest" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ff6" [ label = "rdf:rest" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ff8" [ label = "owl:unionOf" ];
 	"NULL" -> "rdfs:seeAlso" [ label = "owl:annotatedProperty" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ffb" [ label = "rdf:rest" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ff4" [ label = "rdf:rest" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ff7" [ label = "rdf:rest" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ffc" [ label = "owl:unionOf" ];
 	"NULL" -> "base:Literary_text" [ label = "rdf:first" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ffb" [ label = "rdf:rest" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ffc" [ label = "owl:unionOf" ];
 	"NULL" -> "base:Fictional_character" [ label = "rdf:first" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ffa" [ label = "owl:unionOf" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ff6" [ label = "rdf:rest" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ff3" [ label = "rdf:rest" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ff9" [ label = "rdf:rest" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ff5" [ label = "owl:unionOf" ];
-	"NULL" -> "7c61e463:16bd7f5e5ee:-7ff8" [ label = "owl:unionOf" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ff4" [ label = "rdf:rest" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ff7" [ label = "rdf:rest" ];
+	"NULL" -> "-48ad9e38:16bdd34d9a9:-7ff5" [ label = "owl:unionOf" ];
 	"NULL" -> "base:Rhetorical_Figure" [ label = "owl:annotatedSource" ];
 	"base:flitting" -> "base:literary_text4" [ label = ":hasSource" ];
 	"base:Wind" -> "base:literary_text4" [ label = ":hasSource" ];
@@ -83,12 +83,12 @@ node [shape = rectangle, color="orange"]; "base:Interpreted_concept" "d4d8f1e3b9
 	"base:cupe" -> "base:literary_text3" [ label = ":hasSource" ];
 	"base:Literary_text" -> "xsd:string" [ label = ":title" ];
 	"base:Literary_text" -> "base:Lightness" [ label = "base:lacksOf" ];
-	"d4d8f1e3b9c9aef44b3bbf294406a5a4" -> "base:Literary_text" [ label = ":hasSource" ];
+	"60cc3043c36e99dc03dc3ca4255fc458" -> "base:Literary_text" [ label = ":hasSource" ];
 	"base:Literary_text" -> "base:Rhetorical_Figure" [ label = "base:hasRhetoricFunction" ];
-	"165836d04acd4c47df8eb944913bceaa" -> "xsd:anyURI" [ label = ":creator" ];
-	"89bf4b830d585bdd9d11194270496615" -> "owl:Thing" [ label = ":textualPart" ];
+	"83c34784180a5b02293bdb3841017257" -> "xsd:anyURI" [ label = ":creator" ];
+	"9a8b5dde50e64358a834a8646af40f61" -> "owl:Thing" [ label = ":textualPart" ];
 	"base:Lightness" -> "base:Heaviness" [ label = "base:isSubtractionOf" ];
-	"87c699adcbae3ef2679ef93e53807cae" -> "xsd:string" [ label = ":textualReference" ];
+	"d03fc718c6e305e525f39705a56ee491" -> "xsd:string" [ label = ":textualReference" ];
 	"base:Heaviness" -> "base:Lightness" [ label = "base:isOppositeOf" ];
 	"base:Heaviness" -> "base:Mutability" [ label = "base:isLightenedBy" ];
 	"base:Fictional_character" -> "base:Interpreted_concept" [ label = "base:isEmbodimentOf" ];
